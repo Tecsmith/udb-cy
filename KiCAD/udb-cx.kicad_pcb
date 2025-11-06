@@ -3130,7 +3130,7 @@
 		(at 105.75 53.25 180)
 		(descr "SMD rectangular pad as test Point, square 1.5mm side length")
 		(tags "test point SMD pad rectangle square")
-		(property "Reference" "TP1"
+		(property "Reference" "TP-Gnd1"
 			(at 0 1.648 0)
 			(layer "B.SilkS")
 			(hide yes)
@@ -3286,7 +3286,7 @@
 		(at 100.25 53.25 180)
 		(descr "SMD rectangular pad as test Point, square 1.5mm side length")
 		(tags "test point SMD pad rectangle square")
-		(property "Reference" "TP"
+		(property "Reference" "TP-Vcc1"
 			(at 0 1.648 0)
 			(layer "B.SilkS")
 			(hide yes)
@@ -3911,28 +3911,28 @@
 		(uuid "0cb06ee8-3079-4558-84f1-2b030d3b67d1")
 	)
 	(segment
+		(start 101.25 44.840721)
+		(end 101.590721 44.5)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 3)
+		(uuid "0d097cee-edf9-489f-b720-8bfee1295cbd")
+	)
+	(segment
+		(start 101.25 45.695)
+		(end 101.25 44.840721)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 3)
+		(uuid "146d8a8b-1a3b-4c94-9146-4b38baa8f71e")
+	)
+	(segment
 		(start 107.346101 49.247793)
 		(end 107.351528 49.25322)
 		(width 0.25)
 		(layer "F.Cu")
 		(net 3)
 		(uuid "328b4d7c-11ed-4515-8b29-bc0b9dd6cb2e")
-	)
-	(segment
-		(start 101.418 44.5)
-		(end 102 44.5)
-		(width 0.25)
-		(layer "F.Cu")
-		(net 3)
-		(uuid "72df4d28-6d79-4dd8-b91b-089dc14cecc5")
-	)
-	(segment
-		(start 101.25 45.695)
-		(end 101.25 44.668)
-		(width 0.25)
-		(layer "F.Cu")
-		(net 3)
-		(uuid "940b3929-f020-4a9b-b5cb-d37bcaf8ac1e")
 	)
 	(segment
 		(start 106.43974 49.247793)
@@ -3943,12 +3943,12 @@
 		(uuid "962f9a89-5ee2-4b84-9eaa-04e84cbe4397")
 	)
 	(segment
-		(start 101.25 44.668)
-		(end 101.418 44.5)
+		(start 101.590721 44.5)
+		(end 102 44.5)
 		(width 0.25)
 		(layer "F.Cu")
 		(net 3)
-		(uuid "ca37d1f5-0fda-420d-8dc2-f72fde2fe428")
+		(uuid "c90a3c29-5c71-42a0-9dc1-4244b2ffa93d")
 	)
 	(segment
 		(start 106.43974 49.247793)
@@ -4653,6 +4653,14 @@
 		(layer "F.Cu")
 		(net 10)
 		(uuid "9c26358d-5e78-4e4b-86e7-7dc9787998f0")
+	)
+	(segment
+		(start 102.5 51.1)
+		(end 102.5 49.9)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 10)
+		(uuid "b7fea8a9-1f1c-47f9-a33d-c0c6734f3b21")
 	)
 	(segment
 		(start 102.75 45.695)
