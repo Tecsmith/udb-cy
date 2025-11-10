@@ -1064,6 +1064,253 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "PCM_SparkFun-Connector:Conn_01x04_JST_P1.25mm_Locking_Horizontal_SMD"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "JST_Locking_4"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "PCM_SparkFun-Connector:JST_1x04_P1.25mm_Locking_Horizontal_SMD"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eGH.pdf"
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Locking 4 pin JST SMD connector"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PROD_ID" "CONN-15303"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "SparkFun connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x04_JST_P1.25mm_Locking_Horizontal_SMD_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 3.81 -6.35 90)
+					(length 5.08)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "NC2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 6.35 -6.35 90)
+					(length 5.08)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "NC1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "USB_C_Receptacle_1"
 			(pin_names
 				(offset 1.016)
@@ -2939,6 +3186,16 @@
 		)
 		(uuid "39bcf754-6f7f-48cd-8e7a-2a25a52eb635")
 	)
+	(text "Alternative JST SUR Connector"
+		(exclude_from_sim no)
+		(at 42.926 126.746 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6a0f841a-de5e-495f-9c3c-cfdcb2ee02a3")
+	)
 	(text "Based on the Unified C3 board by @Unified-Daughterboard/UDB-C-Legacy"
 		(exclude_from_sim no)
 		(at 129.794 107.696 0)
@@ -3116,6 +3373,16 @@
 			(type default)
 		)
 		(uuid "269f9da9-ae40-49e8-ba95-45a754a384e7")
+	)
+	(wire
+		(pts
+			(xy 43.18 106.68) (xy 43.18 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2843186e-4b0b-4344-be9b-ef69cc31898a")
 	)
 	(wire
 		(pts
@@ -3349,6 +3616,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 111.76) (xy 44.45 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67b6ff2d-09fe-46f5-b953-5f5446590e89")
+	)
+	(wire
+		(pts
 			(xy 97.79 83.82) (xy 99.06 83.82)
 		)
 		(stroke
@@ -3396,6 +3673,16 @@
 			(type default)
 		)
 		(uuid "7a84f459-7899-4c03-b1f7-278b586871d3")
+	)
+	(wire
+		(pts
+			(xy 43.18 116.84) (xy 43.18 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7aa6edb4-1b5b-4242-8fb1-ce96c5e681b7")
 	)
 	(wire
 		(pts
@@ -3469,6 +3756,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 109.22) (xy 44.45 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "939f1840-2eb3-490a-8de1-9aecdf71c604")
+	)
+	(wire
+		(pts
 			(xy 87.63 38.1) (xy 87.63 40.64)
 		)
 		(stroke
@@ -3506,6 +3803,16 @@
 			(type default)
 		)
 		(uuid "9f1c1a4b-06d3-4e2c-a958-2b58a17c6ae4")
+	)
+	(wire
+		(pts
+			(xy 44.45 116.84) (xy 43.18 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a41016d9-a5d9-4e01-bd46-a8e8582d393e")
 	)
 	(wire
 		(pts
@@ -3699,6 +4006,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 114.3) (xy 44.45 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e88a7f04-7def-44d9-b47e-9db442a118c7")
+	)
+	(wire
+		(pts
 			(xy 162.56 76.2) (xy 167.64 76.2)
 		)
 		(stroke
@@ -3771,6 +4088,26 @@
 			)
 		)
 	)
+	(global_label "D-"
+		(shape input)
+		(at 40.64 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "174a75ef-088a-40cf-a207-e69f4441c1cc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 40.64 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "D+"
 		(shape input)
 		(at 149.225 41.91 180)
@@ -3809,6 +4146,26 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D+"
+		(shape input)
+		(at 40.64 114.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "52bad18b-89ec-4fcb-9500-6977ecef4644")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 40.64 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -5358,7 +5715,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "90feec69-fe54-489c-847f-e986f5c6d829")
-		(property "Reference" "J2"
+		(property "Reference" "J0"
 			(at 36.83 22.86 0)
 			(effects
 				(font
@@ -5455,7 +5812,7 @@
 		(instances
 			(project ""
 				(path "/45b81b3f-a376-44a8-a955-c3164d7947b8"
-					(reference "J2")
+					(reference "J0")
 					(unit 1)
 				)
 			)
@@ -5592,6 +5949,70 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 43.18 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ad7768df-0be2-4ac2-84b3-1ab0055eeb6c")
+		(property "Reference" "#PWR011"
+			(at 43.18 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 43.18 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 43.18 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d3ebc993-ebc0-4743-b56a-69357062d7a6")
+		)
+		(instances
+			(project "udb-cx"
+				(path "/45b81b3f-a376-44a8-a955-c3164d7947b8"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ts-kicad-lib:TPDxE05U06")
 		(at 104.14 81.28 0)
 		(unit 1)
@@ -5684,6 +6105,70 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 43.18 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b95e8fec-2c72-412a-8ba9-9d66d2ef0ffa")
+		(property "Reference" "#PWR012"
+			(at 43.18 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 43.307 123.7742 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 43.18 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dea9094d-fd11-4ba4-bdd4-2701ce5f52c6")
+		)
+		(instances
+			(project "udb-cx"
+				(path "/45b81b3f-a376-44a8-a955-c3164d7947b8"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VBUS")
 		(at 144.78 73.66 0)
 		(unit 1)
@@ -5744,6 +6229,97 @@
 			(project "udb-cx"
 				(path "/45b81b3f-a376-44a8-a955-c3164d7947b8"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SparkFun-Connector:Conn_01x04_JST_P1.25mm_Locking_Horizontal_SMD")
+		(at 49.53 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e21ddce2-9b5b-438c-bb54-fe0224b6b974")
+		(property "Reference" "J2"
+			(at 52.07 111.7599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "JST_SUR_4"
+			(at 52.07 114.2999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_SUR_SM04B-SURS-TF_1x04-1MP_P0.80mm_Horizontal"
+			(at 49.53 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Locking 4 pin JST SMD connector"
+			(at 49.53 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PROD_ID" "CONN-15303"
+			(at 49.53 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ae3557b8-1139-46ca-886a-09a3575aa301")
+		)
+		(pin "2"
+			(uuid "ad32b47f-883e-4ba6-abef-dd2f6f61df4d")
+		)
+		(pin "3"
+			(uuid "c212f2d4-6aac-4a01-8a19-b4abf38e2682")
+		)
+		(pin "4"
+			(uuid "28f632e1-f617-434f-9fce-6c34b4484f19")
+		)
+		(pin "NC2"
+			(uuid "a37310c0-580b-4300-be83-c44e9f937469")
+		)
+		(pin "NC1"
+			(uuid "08f011ed-b032-447a-ba88-93e025d4c9f2")
+		)
+		(instances
+			(project ""
+				(path "/45b81b3f-a376-44a8-a955-c3164d7947b8"
+					(reference "J2")
 					(unit 1)
 				)
 			)
